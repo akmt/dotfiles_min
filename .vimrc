@@ -30,7 +30,8 @@ nnoremap <silent> <C-p> :<C-u>execute '!' &l:filetype '%'<Return>
 " git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 " git clone https://github.com/Shougo/vimproc ~/.vim/bundle/vimproc
 
-"" 容量に余裕ありそうな環境
+"" 容量に余裕ありそうな環境用
+"" 以下を入れると約35MB
 "if has('vim_starting')
 "     set runtimepath+=~/.vim/bundle/neobundle.vim
 "     call neobundle#begin(expand('~/.vim/bundle/'))
