@@ -138,7 +138,7 @@ nnoremap E :Sexplore<cr>
 nnoremap L :call Logging()<cr>
 nnoremap <C-c><C-c> :<C-u>nohlsearch<cr><Esc>
 set scrolloff=9999
-
+inoremap jj <ESC>
 
 "文字コードの自動認識
 if &encoding !=# 'utf-8'
